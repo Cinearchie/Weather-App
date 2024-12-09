@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const temperatureEl = document.getElementById('temperature');
   const descriptionEl = document.getElementById('description');
   const errMsg = document.getElementById('error-message');
-  const API_KEY = "5f56d525d1619d0a2cd2eac4ce55588e";
+  const API_KEY = "key of your own";
   btn.addEventListener('click', async () => {
     const city = cityInput.value.trim();
     if (!city) return;
